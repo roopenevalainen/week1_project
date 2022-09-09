@@ -48,10 +48,10 @@ function addElement() {
   userList.appendChild(newElement);
 }
 
-//function clearTextArea() {
+/*function clearTextArea() {
   //let textArea = document.getElementById("user-input");
   //textArea.value = "";
-//}
+}*/
 
 function clearList() {
   const list = document.getElementById("data-list");
