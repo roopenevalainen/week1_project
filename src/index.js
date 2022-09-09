@@ -19,7 +19,7 @@ function initializeCode() {
   const addElementButtonFunctionality = document.getElementById("add-data");
   addElementButtonFunctionality.addEventListener("click", function () {
     addElement();
-    clearTextArea();
+    //clearTextArea();
   });
 
   const clearListButtonFunctionality = document.getElementById(
@@ -48,10 +48,10 @@ function addElement() {
   userList.appendChild(newElement);
 }
 
-function clearTextArea() {
-  let textArea = document.getElementById("user-input");
-  textArea.value = "";
-}
+//function clearTextArea() {
+  //let textArea = document.getElementById("user-input");
+  //textArea.value = "";
+//}
 
 function clearList() {
   const list = document.getElementById("data-list");
