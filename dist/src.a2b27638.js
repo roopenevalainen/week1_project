@@ -148,7 +148,7 @@ function initializeCode() {
 }
 
 function printToLog() {
-  console.log("Hello wold");
+  console.log("Hello world");
 }
 
 function changeHeader() {
@@ -210,7 +210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41791" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35761" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
