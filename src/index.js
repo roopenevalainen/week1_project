@@ -30,7 +30,7 @@ function initializeCode() {
   });
 }
 function printToLog() {
-  console.log("Hello wold");
+  console.log("Hello world");
 }
 
 function changeHeader() {
